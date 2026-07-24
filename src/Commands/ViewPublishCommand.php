@@ -10,7 +10,7 @@ final class ViewPublishCommand extends Command
     /**
      * @var string
      */
-    protected $signature = 'm2collective:html-markup:publish-view';
+    protected $signature = 'm2collective:html-markup:publish-views';
 
     /**
      * @var string
@@ -23,7 +23,7 @@ final class ViewPublishCommand extends Command
     public function handle() : void
     {
         $this->call('vendor:publish', [
-            '--tag' => 'm2collective:html-markup:publish-view'
+            '--tag' => 'm2collective:html-markup:publish-views'
         ]);
     }
 }
