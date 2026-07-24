@@ -47,7 +47,7 @@ final class HtmlMarkupServiceProvider extends ServiceProvider
 
         $this->publishes([
             __DIR__ . '/../resources/views' => resource_path('views/vendor/laravel-html-markup'),
-        ], 'm2collective:html-markup:publish-view');
+        ], 'm2collective:html-markup:publish-views');
 
         if ($this->app->runningInConsole()) {
             $this->commands([
