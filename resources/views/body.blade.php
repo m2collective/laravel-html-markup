@@ -1,0 +1,3 @@
+<body {{ $attibutes }}>
+{{ $slot }}
+</body>
