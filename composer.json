@@ -1,0 +1,42 @@
+{
+  "$schema": "https://getcomposer.org/schema.json",
+  "name": "m2collective/laravel-html-markup",
+  "description": "",
+  "keywords": [
+    "m2collective",
+    "laravel",
+    "html",
+    "markup"
+  ],
+  "license": "MIT",
+  "require": {
+    "php": "^8.3",
+    "laravel/framework": "^13.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "M2Collective\\HtmlMarkup\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "M2Collective\\HtmlMarkup\\HtmlMarkupServiceProvider"
+      ]
+    }
+  },
+  "authors": [
+    {
+      "name": "bu0nq",
+      "email": "hello@bu0nq.ru",
+      "homepage": "https://bu0nq.ru",
+      "role": "Developer"
+    }
+  ],
+  "homepage": "https://github.com/m2collective/laravel-html-markup",
+  "prefer-stable": true,
+  "config": {
+    "sort-packages": true
+  },
+  "minimum-stability": "dev"
+}
