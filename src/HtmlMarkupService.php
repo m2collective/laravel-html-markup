@@ -3,8 +3,8 @@ declare(strict_types=1);
 
 namespace M2Collective\HtmlMarkup;
 
-use M2Collective\HtmlMarkup\Views\Properties\Contracts\Body;
-use M2Collective\HtmlMarkup\Views\Properties\Contracts\Html;
+use M2Collective\HtmlMarkup\Contracts\Views\Properties\Body;
+use M2Collective\HtmlMarkup\Contracts\Views\Properties\Html;
 
 final readonly class HtmlMarkupService implements HtmlMarkup
 {
