@@ -4,9 +4,9 @@ declare(strict_types=1);
 namespace M2Collective\HtmlMarkup\Facades;
 
 use Illuminate\Support\Facades\Facade;
+use M2Collective\HtmlMarkup\Contracts\Views\Properties\Body;
+use M2Collective\HtmlMarkup\Contracts\Views\Properties\Html;
 use M2Collective\HtmlMarkup\HtmlMarkup as HtmlMarkupContract;
-use M2Collective\HtmlMarkup\Views\Properties\Contracts\Body;
-use M2Collective\HtmlMarkup\Views\Properties\Contracts\Html;
 
 /**
  * @method static Html getHtml()
