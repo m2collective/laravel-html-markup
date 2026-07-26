@@ -7,6 +7,10 @@ use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\ServiceProvider;
 use M2Collective\HtmlMarkup\Commands\ConfigPublishCommand;
 use M2Collective\HtmlMarkup\Commands\ViewPublishCommand;
+use M2Collective\HtmlMarkup\Contracts\Views\Properties\Body as BodyContract;
+use M2Collective\HtmlMarkup\Contracts\Views\Properties\Html as HtmlContract;
+use M2Collective\HtmlMarkup\Views\Properties\Body;
+use M2Collective\HtmlMarkup\Views\Properties\Html;
 
 final class HtmlMarkupServiceProvider extends ServiceProvider
 {
@@ -23,6 +27,16 @@ final class HtmlMarkupServiceProvider extends ServiceProvider
         $this->app->singleton(
             HtmlMarkup::class,
             HtmlMarkupService::class
+        );
+
+        $this->app->bind(
+            HtmlContract::class,
+            Html::class
+        );
+
+        $this->app->bind(
+            BodyContract::class,
+            Body::class
         );
     }
 
