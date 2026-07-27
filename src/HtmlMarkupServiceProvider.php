@@ -6,7 +6,7 @@ namespace M2Collective\HtmlMarkup;
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\ServiceProvider;
 use M2Collective\HtmlMarkup\Commands\ConfigPublishCommand;
-use M2Collective\HtmlMarkup\Commands\ViewPublishCommand;
+use M2Collective\HtmlMarkup\Commands\ViewsPublishCommand;
 use M2Collective\HtmlMarkup\Contracts\Views\Properties\Body as BodyContract;
 use M2Collective\HtmlMarkup\Contracts\Views\Properties\Html as HtmlContract;
 use M2Collective\HtmlMarkup\Views\Properties\Body;
@@ -66,7 +66,7 @@ final class HtmlMarkupServiceProvider extends ServiceProvider
         if ($this->app->runningInConsole()) {
             $this->commands([
                 ConfigPublishCommand::class,
-                ViewPublishCommand::class,
+                ViewsPublishCommand::class,
             ]);
         }
     }
