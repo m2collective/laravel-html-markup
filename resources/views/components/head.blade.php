@@ -1,3 +1,3 @@
-<head {{ $attibutes }}>
+<head {{ $attibutes->merge([]) }}>
 {{ $slot }}
 </head>
