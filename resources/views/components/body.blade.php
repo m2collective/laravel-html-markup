@@ -1,3 +1,3 @@
-<body {{ $attibutes }}>
+<body {{ $attibutes->merge([]) }}>
 {{ $slot }}
 </body>
