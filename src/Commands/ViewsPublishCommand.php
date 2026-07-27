@@ -5,7 +5,7 @@ namespace M2Collective\HtmlMarkup\Commands;
 
 use Illuminate\Console\Command;
 
-final class ViewPublishCommand extends Command
+final class ViewsPublishCommand extends Command
 {
     /**
      * @var string
