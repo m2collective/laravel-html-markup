@@ -33,7 +33,7 @@ php artisan m2collective:html-markup:publish-views
 
 An example of using a package with the blade:
 
-```bladehtml
+```html
 <x-html-markup::html lang="en">
     <x-html-markup::head>
 
