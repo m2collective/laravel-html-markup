@@ -4,3 +4,27 @@
 ![PHP](https://img.shields.io/badge/php-^8.3-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white)
 
 ___
+
+## Installation
+
+You can install the package via composer:
+
+```shell
+composer require m2collective/laravel-html-markup
+```
+
+The package will automatically register itself.
+
+## Commands
+
+Publishing the configuration file:
+
+```shell
+php artisan m2collective:html-markup:publish-config
+```
+
+Publishing HTML views:
+
+```shell
+php artisan m2collective:html-markup:publish-views
+```
