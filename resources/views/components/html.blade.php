@@ -1,4 +1,4 @@
 <!DOCTYPE html>
-<html {{ $attibutes->merge([]) }}>
+<html {{ $attributes }}>
 {{ $slot }}
 </html>
