@@ -28,3 +28,22 @@ Publishing HTML views:
 ```shell
 php artisan m2collective:html-markup:publish-views
 ```
+
+### Blade
+
+An example of using a package with the blade:
+
+```bladehtml
+<x-html-markup::html lang="en">
+    <x-html-markup::head>
+
+    </x-html-markup::head>
+    <x-html-markup::body>
+
+    </x-html-markup::body>
+</x-html-markup::html>
+```
+
+## License
+
+The MIT License (MIT). Please see the [License file](LICENSE.txt) for more information.
