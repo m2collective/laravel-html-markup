@@ -1,7 +1,7 @@
 {
   "$schema": "https://getcomposer.org/schema.json",
   "name": "m2collective/laravel-html-markup",
-  "description": "",
+  "description": "A package for basic HTML document markup.",
   "keywords": [
     "m2collective",
     "laravel",
