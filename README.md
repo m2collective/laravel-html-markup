@@ -36,7 +36,7 @@ php artisan m2collective:html-markup:publish-views
 An example of using a package with the blade:
 
 ```html
-<x-html-markup::html lang="en">
+<x-html-markup::base lang="en">
     <x-html-markup::head>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta charset="utf-8">
@@ -46,7 +46,7 @@ An example of using a package with the blade:
     <x-html-markup::body>
         //...
     </x-html-markup::body>
-</x-html-markup::html>
+</x-html-markup::base>
 ```
 
 ## License
